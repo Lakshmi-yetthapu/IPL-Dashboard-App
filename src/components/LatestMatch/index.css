@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.latest-match-header {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.latest-match-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #292929;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #3e3e3e;
+}
+
+.latest-match-details img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .recent-matches-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.latest-match {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #f9f9f9;
+}
+
+.latest-match-heading {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.competing-team-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 16px;
+}
+
+.competing-team,
+.match-date,
+.venue,
+.result,
+.first-innings,
+.second-innings,
+.man-of-the-match,
+.umpires {
+  font-size: 16px;
+  color: #555;
+  margin: 4px 0;
+}
+
+.first-innings,
+.second-innings,
+.man-of-the-match,
+.umpires {
+  font-weight: 600;
+}

@@ -1,0 +1,68 @@
+/* Write your CSS here */
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container Styling */
+.Home {
+  text-align: center;
+  padding: 20px;
+}
+
+.Home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+.Home img {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+/* Loader Styling */
+.Home [testid='loader'] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Team List Styling */
+.Home ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.Home li {
+  background-color: #1f2937;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Home li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.Home li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 15px;
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+/* Write your CSS here */
+/* Team Card Styling */
+.TeamCard {
+  text-align: center;
+}
+
+.TeamCard img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #61dafb;
+}
+
+.TeamCard h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #ffffff;
+}
